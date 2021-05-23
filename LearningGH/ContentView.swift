@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("What's Up, CodeCrew")
-            .padding()
+        VStack {
+            
+            Image(systemName: "figure.wave")
+            Text("What's Up, CodeCrew")
+                .padding()
+        }
     }
 }
 
